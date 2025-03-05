@@ -1,0 +1,22 @@
+
+.highlighted-code {
+    background-color: yellow;
+    cursor: pointer;
+    position: relative;
+}
+
+.sticky-note {
+    position: absolute;
+    width: 200px;
+    background: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5%;
+    padding: 5px;
+    font-size: 12px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    z-index: 10000;
+    overflow-wrap: break-word;
+    max-height: 150px;
+    overflow-y: auto;
+}
